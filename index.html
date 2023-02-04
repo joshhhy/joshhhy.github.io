@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/lib/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/26243d871e.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+   <!-- Side-bar -->
+   <div class="sidebar " id="sideBar">
+        <div class="main logo">Josh</div>
+        <div class="logo mini">
+            J
+        </div>
+        <div class="nav-link" >
+            <ul>
+                <li>
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-wrench"></i>
+                    <a href="#">Service</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-briefcase"></i>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="#">Contact</a>
+                </li>
+                <i class="fa-solid fa-less-than"></i>
+            </ul>
+        </div>
+
+        <div class="sm-link">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-sharp fa-solid fa-basketball"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <i class="fa-solid fa-greater-than" onclick="openmenu()"></i>
+        <i class="fa-solid fa-less-than" id="greaterThan" onclick="closemenu()"></i>
+   </div>
+   <!-- end of sidebar -->
+    <!-- Intro -->
+    <section class="introduction">
+        <div class="intro-text">
+            <h1>Hello, my name is <br> <span>Joseph Ladra</span></h1>
+            <h4>Web Developer & UI / UX Designer</h4>
+            <button class="hire-me">Hire me</button>
+        </div>
+        <div class="profile-img">
+            <img src="lib/img/profile-josh.png" alt="">
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about-me">
+        <h2>About</h2>
+        <h3>UI/UX Designer & <br>
+            Web Developer</h3> 
+        <div class="about-container">
+            <div class="left-side">
+                <p>Web developer and UI/UX designer with a passion for creating engaging and intuitive user experiences. I have experience in developing and designing websites and web applications, utilizing skills in HTML, CSS, JavaScript, and front-end frameworks such as React. My attention to detail and problem-solving skills allow me to deliver high-quality, user-centered designs and seamless functionality.</p>
+            </div>
+            <div class="right-side">
+                <div class="right-side-container">
+                    <div class="left">
+                        <p><span>Name :</span> Joseph Ladra</p>
+                        <p><span>Birthday :</span> March 13, 2005</p>
+                        <p><span>Degree :</span> CS</p>
+                        <p><span>Website :</span> domain.com</p>
+                    </div>
+                    <div class="right">
+                        <p><span>Experience :</span> 10 year</p>
+                        <p><span>Email :</span> jladra9875@gmail.com</p>
+                        <p><span>Phone :</span> +123456789</p>
+                        <p><span>Freelance :</span> Available</p>
+                    </div>
+                </div>
+                <button class="download-cv">
+                    Download CV
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- My skill -->
+    <section class="my-skill">
+        <h3>My Skills</h3>
+        <div class="my-skill-container">
+            <div class="progess-skill">
+                <div class="skill-name">
+                    <h4>HTML</h4>
+                    <p>86%</p>
+                </div>
+                <div class="progessbar">
+                    <div class="progessbar-percent"></div>
+                </div>
+            </div>
+            <div class="progess-skill">
+                <div class="skill-name">
+                    <h4>HTML</h4>
+                    <p>86%</p>
+                </div>
+                <div class="progessbar">
+                    <div class="progessbar-percent"></div>
+                </div>
+            </div>
+            <div class="progess-skill">
+                <div class="skill-name">
+                    <h4>HTML</h4>
+                    <p>86%</p>
+                </div>
+                <div class="progessbar">
+                    <div class="progessbar-percent"></div>
+                </div>
+            </div>
+            <div class="progess-skill">
+                <div class="skill-name">
+                    <h4>HTML</h4>
+                    <p>86%</p>
+                </div>
+                <div class="progessbar">
+                    <div class="progessbar-percent"></div>
+                </div>
+            </div>
+            <div class="progess-skill">
+                <div class="skill-name">
+                    <h4>HTML</h4>
+                    <p>86%</p>
+                </div>
+                <div class="progessbar">
+                    <div class="progessbar-percent"></div>
+                </div>
+            </div>
+            <div class="progess-skill">
+                <div class="skill-name">
+                    <h4>HTML</h4>
+                    <p>86%</p>
+                </div>
+                <div class="progessbar">
+                    <div class="progessbar-percent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service -->
+    <section class="service">
+        <h3>Service</h3>
+        <div class="service-container">
+            <div class="service-card">
+                <img src="lib/img/icon/imac.png" alt="">
+                <h4>Web Design</h4>
+                <div class="service-box-des">
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="lib/img/icon/hand-with-pen.png" alt="">
+                <h4>Content Creating</h4>
+                <div class="service-box-des">
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="lib/img/icon/code.png" alt="">
+                <h4>Web Development</h4>
+                <div class="service-box-des">
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="lib/img/icon/android.png" alt="">
+                <h4>Apps Design</h4>
+                <div class="service-box-des">
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="lib/img/icon/search (2).png" alt="">
+                <h4>SEO</h4>
+                <div class="service-box-des">
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="lib/img/icon/apple-logo.png" alt="">
+                <h4>Apps Development</h4>
+                <div class="service-box-des">
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio">
+        <h3>Portfolio</h3>
+        <h4>My Last Project</h4>
+        <div class="portfolio-container">
+            <div class="port-card">
+            </div>
+            <div class="port-card">
+            </div>
+            <div class="port-card">
+                
+            </div>
+            <div class="port-card">
+                
+            </div>
+            <div class="port-card">
+                
+            </div>
+            <div class="port-card">
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section class="contact">
+        <h3>Contact Me</h3>
+        <div class="contact-container">
+            <div class="contact-left">
+                <div class="contact-box">
+                    <div class="contact-img">
+                        <img src="icon/mail.png" alt="">
+                    </div>
+                    <div class="email-text">
+                        <h5>Email</h5>
+                        <p>jladra9875@gmail.com</p>
+                    </div>
+                   
+                </div>
+               <div class="contact-box">
+                    <div class="contact-img">
+                        <img src="icon/call (2).png" alt="">
+                    </div>
+                    <div class="email-text">
+                        <h5>Phone</h5>
+                        <p>+123456789</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-img">
+                        <img src="icon/placemark.png" alt="">
+                    </div>
+                    <div class="email-text">
+                        <h5>Location</h5>
+                        <p>123 Street, New York, USA</p>
+                    </div>    
+                </div>
+            </div>
+            <form class="contact-form" action="#">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <textarea name="Message" cols="30" rows="10" placeholder="Message"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+        <!-- Left-bar -->
+    </section>
+    <script src="lib/script/main.js"></script>
+</body>
+</html>
